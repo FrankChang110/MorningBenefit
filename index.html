@@ -108,7 +108,10 @@
   }
   @media (max-width: 520px) {
     .steps { grid-template-columns: 1fr; }
-    nav a:nth-child(3) { display: none; }
+      header .wrap { height: auto; flex-direction: column; align-items: flex-start; gap: 4px; padding-top: 12px; padding-bottom: 12px; }
+  nav { gap: 16px; }
+  nav a { font-size: 14px; padding: 6px 0; }
+  .logo { font-size: 19px; }
   }
   @media (prefers-reduced-motion: reduce) {
     .draw.run { animation: none; stroke-dashoffset: 0; }
@@ -135,7 +138,7 @@
   <div class="hero">
     <div class="wrap">
       <h1>車到圖面尺寸,<br>讓零件重新能用</h1>
-      <p class="lead">晨益車床加工提供傳統車床與 CNC 車床加工,小量訂製、舊件重製、損壞零件維修都可以洽談。</p>
+      <p class="lead">晨益車床加工提供傳統車床與 CNC 車床加工,小批量加工、大量訂製、損壞零件維修都可以洽談。</p>
       <div class="actions">
         <a class="btn primary" href="#contact">詢問加工</a>
         <a class="btn ghost" href="#case">查看維修案例</a>
